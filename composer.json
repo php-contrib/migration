@@ -3,6 +3,11 @@
     "name": "php-contrib/migration",
     "description": "Enables automatic and on-demand management of data",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PhpContrib\\Migration\\": "src/"
+        }
+    },
     "require-dev": {
         "squizlabs/php_codesniffer": "^4"
     },
