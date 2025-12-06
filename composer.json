@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "phpolar/migration",
+    "name": "php-contrib/migration",
     "description": "Enables automatic and on-demand management of data",
     "type": "library",
     "require-dev": {
