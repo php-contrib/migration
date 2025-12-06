@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "phpolar/migration",
-    "description": "Enables automatic and by demand management of data",
+    "description": "Enables automatic and on-demand management of data",
     "type": "library",
     "require-dev": {
         "squizlabs/php_codesniffer": "^4"

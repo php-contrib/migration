@@ -1,3 +1,3 @@
 # Migration
 
-Enables automatic and by demand management of data
+Enables automatic and on-demand management of data
