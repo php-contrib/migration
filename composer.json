@@ -1,0 +1,22 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "phpolar/migration",
+    "description": "Enables automatic and by demand management of data",
+    "type": "library",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=8.4"
+    },
+    "license": "MIT",
+    "scripts": {
+        "ci:lint": "@lint",
+        "ci:lint-fix": "@lint-fix",
+        "lint": "phpcs",
+        "lint-fix": "phpcbf"
+    }
+}
